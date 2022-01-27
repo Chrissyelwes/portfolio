@@ -4,8 +4,42 @@
     <title>Contact Me</title>
     <header>
         <h1>Contact Me</h1>
+        <p>If you need to contact me please fill up the form below and I will get back to you when I can :)</p>
     </header>
+    <main>
+        <form action="../pages/contact.html" method="post">
+            <fieldset>
+                <legend> Personal Details:</legend>
+                <label>
+                    Name:
+                    <input type="text" name="name" />
+                </label>
+                <label>
+                    Email:
+                    <input type="email" value="email@example.com" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Reason for Contacting:</legend>
+                <label>
+                A:
+                <input type="checkbox" name="reason" value="Puppies not cute enough" /> Puppies not cute enough 
+                </label>
+                <label>
+                 | B:
+                <input type="checkbox" name="reason" value="Need more puppies" /> Need more Puppies   
+                </label>
+                <label>
+                 | C:
+                <input type="checkbox" name="reason" value="I want to pet the puppies" /> I want to pet the puppies
+                </label>
+                <label>
+                 |  Other:
+                <input type="text" value="s" />
+                </label>
+            </fieldset>
+
+        </form>
+    </main>
 </head>
-
-
 </html>
